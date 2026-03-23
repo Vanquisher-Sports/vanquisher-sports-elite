@@ -23,16 +23,16 @@ const Contact = () => (
           <div className="flex items-start gap-4">
             <MapPin size={20} className="text-primary mt-1 flex-shrink-0" />
             <div>
-              <p className="font-semibold text-foreground text-sm">Training Centre</p>
-              <p className="text-sm text-muted-foreground mt-1">Sports Complex, Sector 12, HSR Layout, Bengaluru, Karnataka 560102</p>
+              <p className="font-semibold text-foreground text-sm">Elite Badminton Arena</p>
+              <p className="text-sm text-muted-foreground mt-1">7A, 4th C Main Road Dr. Vivekananda Layout, Santrupthi Nagar, Sankranthi Layout, near Naturals Ice Cream, JP Nagar 7th Phase, Arekere, Bengaluru, Karnataka 560078</p>
             </div>
           </div>
           <div className="flex items-start gap-4">
             <Phone size={20} className="text-primary mt-1 flex-shrink-0" />
             <div>
               <p className="font-semibold text-foreground text-sm">Phone</p>
-              <a href="tel:+919876543210" className="text-sm text-muted-foreground hover:text-primary transition-colors mt-1 block">
-                +91 98765 43210
+              <a href="tel:+919611691277" className="text-sm text-muted-foreground hover:text-primary transition-colors mt-1 block">
+                +91 9611691277 +91 9008474782
               </a>
             </div>
           </div>
@@ -40,8 +40,8 @@ const Contact = () => (
             <Mail size={20} className="text-primary mt-1 flex-shrink-0" />
             <div>
               <p className="font-semibold text-foreground text-sm">Email</p>
-              <a href="mailto:info@vanquishersports.com" className="text-sm text-muted-foreground hover:text-primary transition-colors mt-1 block">
-                info@vanquishersports.com
+              <a href="mailto:Vanquishersportsevents@gmail.com" className="text-sm text-muted-foreground hover:text-primary transition-colors mt-1 block">
+                Vanquishersportsevents@gmail.com
               </a>
             </div>
           </div>
@@ -53,7 +53,7 @@ const Contact = () => (
               {[Instagram, Youtube, Facebook].map((Icon, i) => (
                 <a
                   key={i}
-                  href="#"
+                  href="https://www.instagram.com/vanquisherssports?igsh=MXVnNmh4Z2pmY2h6aQ%3D%3D&utm_source=qr"
                   className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-200"
                 >
                   <Icon size={18} />
@@ -73,7 +73,7 @@ const Contact = () => (
         >
           <iframe
             title="Vanquisher Sports Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.9!2d77.63!3d12.91!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU0JzM2LjAiTiA3N8KwMzcnNDguMCJF!5e0!3m2!1sen!2sin!4v1"
+            src="https://maps.app.goo.gl/DimwKSaYpEMeatTaA?g_st=ic"
             className="w-full h-full min-h-[320px] border-0 opacity-70 grayscale"
             allowFullScreen
             loading="lazy"
