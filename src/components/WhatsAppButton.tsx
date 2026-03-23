@@ -1,7 +1,7 @@
 import { MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
 
-const PHONE = "919876543210";
+const PHONE = "917760581133";
 const MESSAGE = "Hello! I want to enquire about badminton training at Vanquisher Sports.";
 
 const WhatsAppButton = () => (
