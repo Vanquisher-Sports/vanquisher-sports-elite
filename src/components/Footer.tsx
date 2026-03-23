@@ -36,9 +36,9 @@ const Footer = () => (
         <div>
           <h4 className="text-sm font-semibold text-foreground mb-4 font-sans">Contact</h4>
           <div className="space-y-2 text-sm text-muted-foreground">
-            <p>+91 98765 43210</p>
-            <p>info@vanquishersports.com</p>
-            <p>HSR Layout, Bengaluru</p>
+            <p>+91 9611691277</p>
+            <p>Vanquishersportsevents@gmail.com</p>
+            <p>7A, 4th C Main Road Dr. Vivekananda Layout, Santrupthi Nagar, Sankranthi Layout, near Naturals Ice Cream, JP Nagar 7th Phase, Arekere, Bengaluru, Karnataka 560078</p>
           </div>
         </div>
       </div>
