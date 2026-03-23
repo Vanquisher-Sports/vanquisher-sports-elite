@@ -73,7 +73,7 @@ const Contact = () => (
         >
           <iframe
             title="Vanquisher Sports Location"
-            src="https://maps.app.goo.gl/DimwKSaYpEMeatTaA?g_st=ic"
+            src="https://www.google.com/maps/place/Elite+Badminton+Arena/@12.8856267,77.5809934,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae156a60567cc1:0xdd424a851d576561!8m2!3d12.8856215!4d77.5835683!16s%2Fg%2F11h4t9fjv3?entry=ttu&g_ep=EgoyMDI2MDMxOC4xIKXMDSoASAFQAw%3D%3D"
             className="w-full h-full min-h-[320px] border-0 opacity-70 grayscale"
             allowFullScreen
             loading="lazy"
