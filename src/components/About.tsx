@@ -17,6 +17,7 @@ const About = () => (
         title="ABOUT VANQUISHER"
         subtitle="Founded with a mission to nurture India's next badminton champions, Vanquisher Sports transforms passionate beginners into competitive athletes through world-class coaching methodology."
       />
+      
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {pillars.map((p, i) => (

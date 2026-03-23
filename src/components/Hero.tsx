@@ -36,9 +36,11 @@ const Hero = () => (
           transition={{ duration: 0.7, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
           className="text-5xl sm:text-7xl lg:text-8xl font-display tracking-wider leading-[0.9] mb-6"
         >
-          TRAIN LIKE
+          Train Fierce.
           <br />
-          <span className="neon-text">A CHAMPION</span>
+          <span className="neon-text">Play Bold.</span>
+          <br />
+          <span className="neon-text">Win Relentless.</span>
         </motion.h1>
 
         <motion.p
@@ -47,8 +49,10 @@ const Hero = () => (
           transition={{ duration: 0.6, delay: 0.6 }}
           className="text-lg md:text-xl text-muted-foreground max-w-xl mb-10 leading-relaxed"
         >
-          High Performance Badminton Training Centre — from grassroots
-          development to national-level competition readiness.
+          Structured badminton coaching for kids, beginners, and tournament players.
+          <br />
+          Scientific training system focused on footwork, fitness, technique, and match performance.
+
         </motion.p>
 
         <motion.div
