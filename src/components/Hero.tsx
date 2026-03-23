@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import heroBg from "@/assets/hero-bg.jpg";
+import logo from "@/assets/logo.png";
 
 const Hero = () => (
   <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -20,14 +21,14 @@ const Hero = () => (
 
     <div className="section-container relative z-10 pt-20">
       <div className="max-w-3xl">
-        <motion.span
+        <motion.img
+          src={logo}
+          alt="Vanquisher Sports"
           initial={{ opacity: 0, x: -30 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="inline-block text-sm font-semibold tracking-[0.25em] uppercase text-primary mb-6"
-        >
-          Vanquisher Sports Academy
-        </motion.span>
+          className="h-20 sm:h-28 w-auto mb-6"
+        />
 
         <motion.h1
           initial={{ opacity: 0, y: 30 }}

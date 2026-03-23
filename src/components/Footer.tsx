@@ -1,3 +1,5 @@
+import logo from "@/assets/logo.png";
+
 const footerLinks = [
   { label: "About", href: "#about" },
   { label: "Programs", href: "#programs" },
@@ -12,8 +14,7 @@ const Footer = () => (
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Brand */}
         <div>
-          <span className="text-2xl font-display tracking-wider neon-text">VANQUISHER</span>
-          <span className="text-xs font-medium text-muted-foreground tracking-widest uppercase ml-2">Sports</span>
+          <img src={logo} alt="Vanquisher Sports" className="h-14 w-auto mb-3" />
           <p className="text-sm text-muted-foreground mt-3 max-w-xs leading-relaxed">
             Building India's next generation of badminton champions through structured coaching and competitive exposure.
           </p>
