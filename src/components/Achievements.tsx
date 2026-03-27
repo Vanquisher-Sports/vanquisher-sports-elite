@@ -3,7 +3,7 @@ import SectionHeading from "./SectionHeading";
 import { useEffect, useRef, useState } from "react";
 
 const champions = [
-  { name: "Arjun Mehta", tournament: "State Sub-Junior Championship 2024", medal: "Gold" as const, age: "U-13" },
+  { name: "Aditi Sushanth", tournament: "State Sub-Junior Championship 2024", medal: "Gold" as const, age: "U-13" },
   { name: "Priya Sharma", tournament: "National Junior Open 2024", medal: "Silver" as const, age: "U-17" },
   { name: "Rohan Iyer", tournament: "All India Inter-District 2023", medal: "Gold" as const, age: "U-15" },
   { name: "Sneha Patil", tournament: "State Senior Championship 2024", medal: "Bronze" as const, age: "U-19" },

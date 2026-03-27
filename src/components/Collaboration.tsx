@@ -4,8 +4,8 @@ import { useState } from "react";
 import { Handshake } from "lucide-react";
 
 const partners = [
-  { name: "Elite Badminton Arena", location: "Bengaluru" },
-  { name: "Fettle Sports Arena", location: "Hyderabad" },
+  { name: "Elite Badminton Arena", location: "JP Nagar 7th Phase" },
+  { name: "Fettle Fitness & Sports", location: "JP Nagar 9th Phase" },
 ];
 
 const Collaboration = () => {
@@ -15,7 +15,7 @@ const Collaboration = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const msg = `Partnership Enquiry — Vanquisher Sports\n\nCentre: ${form.centre}\nLocation: ${form.location}\nContact: ${form.contact}\nPhone: ${form.phone}\nMessage: ${form.message}`;
-    window.open(`https://wa.me/919876543210?text=${encodeURIComponent(msg)}`, "_blank");
+    window.open(`https://wa.me/917760581133?text=${encodeURIComponent(msg)}`, "_blank");
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 3000);
   };
