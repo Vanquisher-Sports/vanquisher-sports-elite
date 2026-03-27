@@ -11,8 +11,8 @@ const galleryItems = [
   },
   {
     id: 2,
-    src: "/images/achievers/Punya.jpeg",
-    alt: "U13 State Champion",
+    src: "/images/achievers/AkhilAditree.jpeg",
+    alt: "U13 Open Champion",
   },
   {
     id: 3,
@@ -21,8 +21,8 @@ const galleryItems = [
   },
   {
     id: 4,
-    src: "/images/achievers/Kids.jpg",
-    alt: "Open State Champion",
+    src: "/images/achievers/Rajeev.jpeg",
+    alt: "35+ Masters State silver medalist",
   },
   {
     id: 5,

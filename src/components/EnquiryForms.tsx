@@ -125,9 +125,9 @@ export const SummerCamp = () => (
     id="summer-camp"
     title="Summer Camp"
     accent="Limited Seats"
-    heading="SUMMER CAMP 2025"
+    heading="SUMMER CAMP 2026"
     subtitle="Intensive 4-week badminton camp starting April 1st — daily sessions, mini tournaments, and certificates."
-    highlight="🏸 Starting April 1st · Limited to 30 seats per batch · 3 hours daily training"
+    highlight="🏸 Starting April 1st · Limited to 30 seats per batch · 1 hour daily training"
     type="summer"
   />
 );
