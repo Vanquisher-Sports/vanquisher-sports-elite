@@ -122,7 +122,7 @@ export default function SummerCampBanner() {
         {/* RIGHT */}
         <div className="flex items-center gap-3">
           <a
-            href="https://wa.me/919008474782?text=Hi%20I%20want%20to%20join%20summer%20camp"
+            href="https://wa.me/917760581133?text=Hi%20I%20want%20to%20join%20summer%20camp"
             target="_blank"
             className="relative bg-gradient-to-r from-yellow-400 to-orange-500 text-black px-5 py-2 rounded-xl text-sm font-bold 
             hover:scale-110 transition-all duration-300 shadow-lg
