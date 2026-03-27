@@ -3,14 +3,14 @@ import SectionHeading from "./SectionHeading";
 import { useEffect, useRef, useState } from "react";
 
 const champions = [
-  { name: "Aditi Sushanth", tournament: "State Sub-Junior Championship 2024", medal: "Gold" as const, age: "U-13" },
-  { name: "Priya Sharma", tournament: "National Junior Open 2024", medal: "Silver" as const, age: "U-17" },
-  { name: "Rohan Iyer", tournament: "All India Inter-District 2023", medal: "Gold" as const, age: "U-15" },
-  { name: "Sneha Patil", tournament: "State Senior Championship 2024", medal: "Bronze" as const, age: "U-19" },
-  { name: "Vikram Reddy", tournament: "National Sub-Junior Championship 2024", medal: "Gold" as const, age: "U-13" },
-  { name: "Ananya Das", tournament: "South Zone Inter-State 2023", medal: "Silver" as const, age: "U-15" },
-  { name: "Karthik Nair", tournament: "State Junior Championship 2024", medal: "Gold" as const, age: "U-17" },
-  { name: "Meera Krishnan", tournament: "All India Ranking Tournament 2024", medal: "Bronze" as const, age: "U-19" },
+  { name: "Punya M N", tournament: "National Championship 2025", medal: "Bronze" as const, age: "U-13" },
+  { name: "Manya Manjunath", tournament: "State Ranking 2025", medal: "Silver" as const, age: "U-13D" },
+  { name: "Vijaya Subramaniam", tournament: "Masters National Championship", medal: "Gold" as const, age: "45+" },
+  { name: "Roopa A N", tournament: "Masters State Championship", medal: "Gold" as const, age: "45+" },
+  { name: "Rajeev", tournament: "Masters State Championship", medal: "Silver" as const, age: "35+" },
+  { name: "Bindushree", tournament: "State Open Tournament", medal: "Gold" as const, age: "U-15" },
+  { name: "Akhil", tournament: "State Open Tournament", medal: "Gold" as const, age: "U-13" },
+  { name: "Adithree", tournament: "State Open Tournament", medal: "Gold" as const, age: "U-11" },
 ];
 
 const medalClass: Record<string, string> = {
@@ -55,9 +55,9 @@ function AnimatedCounter({ target, suffix = "" }: { target: number; suffix?: str
 }
 
 const stats = [
-  { value: 500, suffix: "+", label: "Students Trained" },
+  { value: 2500, suffix: "+", label: "Students Trained" },
   { value: 85, suffix: "+", label: "Medals Won" },
-  { value: 12, suffix: "", label: "National Players" },
+  { value: 12, suffix: "", label: "State Players" },
   { value: 8, suffix: "", label: "Years of Excellence" },
 ];
 

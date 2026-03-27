@@ -6,30 +6,30 @@ const programs = [
   {
     icon: Star,
     title: "Beginner Program",
-    age: "Ages 6–12",
+   
     desc: "Foundation building with grip techniques, basic strokes, footwork fundamentals, and court awareness.",
     benefits: ["Proper grip & stance", "Basic rallying skills", "Fun-based learning"],
   },
   {
     icon: Zap,
     title: "Intermediate Program",
-    age: "Ages 10–16",
+    
     desc: "Advanced stroke play, match strategy, and competitive readiness for district-level tournaments.",
     benefits: ["Net play mastery", "Match tactics", "Tournament preparation"],
   },
   {
     icon: Flame,
     title: "High Performance",
-    age: "Ages 13–21",
+  
     desc: "Intensive training for state and national level athletes with video analysis and sports science support.",
     benefits: ["Video analysis", "Strength & conditioning", "Mental coaching"],
   },
   {
     icon: Sun,
     title: "Summer Camp",
-    age: "Ages 6–16",
-    desc: "Intensive 4-week program starting April 1st. Limited seats available — daily 3-hour sessions.",
-    benefits: ["Daily intensive training", "Mini tournament", "Certificate & medals"],
+   
+    desc: "Intensive 4-week program starting April 1st. Limited seats available — daily 1-hour sessions.",
+    benefits: ["Daily intensive training", "Mini tournament", "Certificate & medals","Concept Training", "Fun activities"],
     highlight: true,
   },
   {
@@ -82,7 +82,7 @@ const Programs = () => (
               ))}
             </ul>
             <a
-              href={`https://wa.me/919876543210?text=${encodeURIComponent(`Hi, I'd like to enquire about the ${p.title} at Vanquisher Sports.`)}`}
+              href={`https://wa.me/917760581133?text=${encodeURIComponent(`Hi, I'd like to enquire about the ${p.title} at Vanquisher Sports.`)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline-glow text-sm text-center !py-2"

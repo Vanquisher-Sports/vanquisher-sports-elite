@@ -62,7 +62,8 @@ const Gallery = () => {
               <img
                 src={item.src}
                 alt={item.alt}
-                className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+                className="w-full h-full object-cover object-center"
+
               />
 
               <div className="absolute bottom-0 inset-x-0 p-3 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
