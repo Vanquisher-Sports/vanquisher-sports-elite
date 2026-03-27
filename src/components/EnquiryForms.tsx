@@ -21,7 +21,7 @@ const EnquiryForm = ({ id, title, accent, heading, subtitle, highlight, type }: 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const msg = `Hi! I'd like to enrol for the ${title} at Vanquisher Sports.\n\nName: ${form.name}\nAge: ${form.age}\nPhone: ${form.phone}\nExperience: ${form.experience}`;
-    window.open(`https://wa.me/919876543210?text=${encodeURIComponent(msg)}`, "_blank");
+    window.open(`https://wa.me/917780581133?text=${encodeURIComponent(msg)}`, "_blank");
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 3000);
   };
@@ -89,7 +89,7 @@ const EnquiryForm = ({ id, title, accent, heading, subtitle, highlight, type }: 
                   value={form.phone}
                   onChange={(e) => setForm({ ...form, phone: e.target.value })}
                   className="w-full bg-secondary border border-border rounded-lg px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-shadow"
-                  placeholder="+91 98765 43210"
+                  placeholder="+91 7760581133"
                 />
               </div>
               <div>
